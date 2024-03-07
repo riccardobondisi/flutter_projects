@@ -1,4 +1,3 @@
-// contact_details.dart
 import 'package:flutter/material.dart';
 
 class ContactDetails extends StatelessWidget {

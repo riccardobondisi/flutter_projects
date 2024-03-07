@@ -4,7 +4,7 @@ class Contact {
   final String? imageUrl;
   final String phoneNumber;
   final String? address;
-  final String? birthDate;
+  final DateTime? birthDate;
 
   Contact({
     required this.id,
@@ -22,48 +22,48 @@ List<Contact> contacts = [
     name: 'Luca Rossi',
     phoneNumber: '123-456-7890',
     address: 'Via Roma, 1, Milano',
-    birthDate: '15/03/1985',
+    birthDate: DateTime(1985, 3, 15),
   ),
   Contact(
     id: "2",
     name: 'Anna Bianchi',
     phoneNumber: '987-654-3210',
     address: 'Via Verdi, 5, Roma',
-    birthDate: '22/07/1990',
+    birthDate: DateTime(1990, 7, 22),
   ),
   Contact(
     id: "3",
     name: 'Marco Verdi',
     phoneNumber: '555-123-4567',
     address: 'Corso Vittorio Emanuele, 10, Torino',
-    birthDate: '08/11/1982',
+    birthDate: DateTime(1995, 12, 5),
   ),
   Contact(
     id: "4",
     name: 'Giulia Ferrari',
     phoneNumber: '111-222-3333',
     address: 'Piazza Dante, 3, Napoli',
-    birthDate: '05/04/1989',
+    birthDate: DateTime(2000, 9, 30),
   ),
   Contact(
     id: "5",
     name: 'Roberto Gialli',
     phoneNumber: '777-888-9999',
     address: 'Viale della Libertà, 15, Firenze',
-    birthDate: '19/09/1977',
+    birthDate: DateTime(1980, 1, 1),
   ),
   Contact(
     id: "6",
     name: 'Francesca Neri',
     phoneNumber: '333-444-5555',
     address: 'Largo Garibaldi, 7, Palermo',
-    birthDate: '30/12/1987',
+    birthDate: DateTime(1992, 5, 10),
   ),
   Contact(
     id: "7",
     name: 'Giovanni Mancini',
     phoneNumber: '999-000-1111',
     address: 'Corso Umberto I, 20, Bologna',
-    birthDate: '10/06/1980',
+    birthDate: DateTime(1988, 11, 27),
   ),
 ];
